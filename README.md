@@ -43,6 +43,7 @@ And then you can refer to the following example to use it.
   Youtu::Request.post("/youtu/api/detectface",image_url_params) do |response,request,result|
     data = JSON.parse(response.body)
   end
+```
 
 For more infomation, please read [https://open.youtu.qq.com/welcome/developer#/api-summary](https://open.youtu.qq.com/welcome/developer#/api-summary)
 
