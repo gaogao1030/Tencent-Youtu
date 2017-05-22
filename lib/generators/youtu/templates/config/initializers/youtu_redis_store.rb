@@ -15,7 +15,7 @@ module Youtu
       end
 
       def write_signature(sign_hash)
-        JSON.parse(Youtu.redis.get(sign_hash.to_json))
+        Youtu.redis.set(redis_key,sign_hash.to_json)
       end
 
       private
