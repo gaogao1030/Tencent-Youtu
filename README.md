@@ -20,18 +20,21 @@ Or install it yourself as:
 
     $ gem install youtu
 
-## Usage
+Run the generator
+    
+    rails g youtu:install
 
-You'll need to configure it. 
-```ruby
-  #config/intialize/youtu.rb
-  Youtu.configure do |config|
-    config.app_id = "app_id"
-    config.secret_id = "secret ID"
-    config.secret_key = "secret key"
-    config.user_id = "your QQ number"
-  end
-```
+`rails g youtu:install` will generated the youtu.rb intialize file in config/initialze/youtu.rb
+
+
+Signature's store is File store,but you can Using Redis to store signature(optional)
+  
+    rails g youtu:redis_store
+
+`rails g youtu:install` will generated the youtu.rb intialize file in config/initialze/youtu_redis_store.rb
+
+
+## Usage
 
 And then you can refer to the following example to use it.
 ```ruby

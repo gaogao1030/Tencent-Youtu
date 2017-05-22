@@ -6,9 +6,8 @@ module Youtu
 
       def copy_config
         template 'config/initializers/youtu.rb'
-        template 'config/initializers/youtu_redis_store.rb'
       end
-
     end
+
   end
 end
