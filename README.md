@@ -27,7 +27,7 @@ Run the generator
 `rails g youtu:install` will generated the youtu.rb intialize file in config/initialze/youtu.rb
 
 
-Signature's store is File store,but you can Using Redis to store signature(optional)
+Signature's default store is File storage,but you can using Redis to store signature(optional)
   
     rails g youtu:redis_store
 
