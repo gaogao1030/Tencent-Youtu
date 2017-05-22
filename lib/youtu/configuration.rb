@@ -14,7 +14,7 @@ module Youtu
 
   class Configuration
     include ActiveSupport::Configurable
-    config_accessor :app_id,:secret_id,:secret_key,:user_id,:expired,:random_length,:host
+    config_accessor :app_id,:secret_id,:secret_key,:user_id,:expired,:random_length,:host,:signature_file
   end
 
   configure do |config|
@@ -25,6 +25,7 @@ module Youtu
     config.user_id = ''
     config.expired = 30.days
     config.random_length = 10
+    config.signature_file = "/tmp/youtu_signature"
   end
 
 end

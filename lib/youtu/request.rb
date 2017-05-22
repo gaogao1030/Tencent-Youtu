@@ -1,5 +1,4 @@
 require 'rest-client'
-require 'JSON'
 
 module Youtu
   module Request
@@ -25,7 +24,7 @@ module Youtu
          method: opts[:method],
          payload: payload.read,
          headers: {
-           authorization: Youtu::Sign.gen_sign,
+           authorization: Youtu::Sign.signature,
            content_type: "text/json",
            content_length: payload.size,
            user_agent: "ua",
