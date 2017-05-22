@@ -38,7 +38,7 @@ And then you can refer to the following example to use it.
 ```ruby
   image_url_params = {
     url: "imagePath"
-    mode: "1"
+    mode: 1
   }
 
   Youtu::Request.post("/youtu/api/detectface",image_url_params) do |response,request,result|
