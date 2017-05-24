@@ -29,7 +29,7 @@ Signature's default store is File storage,but you can using Redis to store signa
   
     rails g youtu:redis_store
 
-`rails g youtu:install` will generated the youtu.rb intialize file in config/initialze/youtu_redis_store.rb
+`rails g youtu:install` will generated the youtu.rb initialize file in config/initialze/youtu_redis_store.rb
 
 
 ## Usage
