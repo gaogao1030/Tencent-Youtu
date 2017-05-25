@@ -1,4 +1,4 @@
-require 'JSON'
+require 'json'
 require 'openssl'
 require 'base64'
 require "youtu/version"
