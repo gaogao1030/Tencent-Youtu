@@ -1,6 +1,6 @@
  Youtu
 ===========
-[![Version][gem]][gem_url] [![Build Status](https://travis-ci.org/gaogao1030/Tencent-Youtu.svg?branch=master)
+[![Version][gem]][gem_url] [![Build Status](https://travis-ci.org/gaogao1030/Tencent-Youtu.svg?branch=master)](https://travis-ci.org/gaogao1030/Tencent-Youtu)
 
 http://open.youtu.qq.com/
 
