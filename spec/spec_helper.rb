@@ -1,7 +1,5 @@
 require "bundler/setup"
 require "youtu"
-require "byebug"
-require "JSON"
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
